@@ -116,7 +116,7 @@ def main():
 
     print("\nThen just run:  claude")
     print("Next: verify you're getting the real model → LLMprobe "
-          "(github.com/cocodot2026/LLMprobe).")
+          "(github.com/cocodot2026/cocodot-llmprobe).")
     return 0
 
 

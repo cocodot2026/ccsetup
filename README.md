@@ -39,7 +39,7 @@ export ANTHROPIC_SMALL_FAST_MODEL="<small-id>"
 Part of a small honest toolkit for running AI from China:
 [ccsetup](https://github.com/cocodot2026/ccsetup) (wire up Claude Code) ·
 [relay-doctor](https://github.com/cocodot2026/relay-doctor) (is it alive?) ·
-[LLMprobe](https://github.com/cocodot2026/LLMprobe) (real model?) ·
+[cocodot-llmprobe](https://github.com/cocodot2026/cocodot-llmprobe) (real model?) ·
 [ai-api-cost](https://github.com/cocodot2026/ai-api-cost) (cost) ·
 [ai-coding-from-china](https://github.com/cocodot2026/ai-coding-from-china) (the full skill).
 
