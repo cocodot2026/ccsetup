@@ -8,6 +8,17 @@ split). The two things people get wrong: the exact env vars, and whether the
 endpoint actually answers. ccsetup does both — and tries the common auth-header and
 path variants so relay quirks don't stump you.
 
+![ccsetup demo](assets/demo.png)
+
+## ⚡ 60-second quickstart
+
+```bash
+curl -O https://raw.githubusercontent.com/cocodot2026/ccsetup/main/ccsetup.py
+python ccsetup.py --base-url https://<relay>/api/ai --token <key> --model <big-id>
+```
+It smoke-tests the endpoint and prints the exact `export` block for Claude Code.
+
+
 ## Use
 ```bash
 python ccsetup.py --base-url https://<relay>/api/ai --token <key> --model <big-id>
