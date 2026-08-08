@@ -3,6 +3,9 @@
 **Configure Claude Code to use any Anthropic-compatible relay — and smoke-test it —
 in one command. Zero dependencies. Your token is never stored or logged.**
 
+> **Want to verify the relay is not downgrading you?** Run it online in seconds:
+> **[probe.cocodot.co](https://probe.cocodot.co)** — free, no install, keys never stored.
+
 Claude Code reads `ANTHROPIC_BASE_URL` + `ANTHROPIC_AUTH_TOKEN` (+ optional model
 split). The two things people get wrong: the exact env vars, and whether the
 endpoint actually answers. ccsetup does both — and tries the common auth-header and
