@@ -19,6 +19,11 @@ path variants so relay quirks don't stump you.
 curl -O https://raw.githubusercontent.com/cocodot2026/ccsetup/main/ccsetup.py
 python ccsetup.py --base-url https://<relay>/api/ai --token <key> --model <big-id>
 ```
+
+**Or run it with zero install** (via [pipx](https://pipx.pypa.io/)):
+```bash
+pipx run --spec git+https://github.com/cocodot2026/ccsetup.git ccsetup
+```
 It smoke-tests the endpoint and prints the exact `export` block for Claude Code.
 
 
