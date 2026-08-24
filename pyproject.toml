@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ccsetup"
+version = "0.1.0"
+description = "Configure Claude Code to use any Anthropic-compatible relay, and smoke-test it, in one command. Zero dependencies."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "cocodot" }]
+keywords = ["claude-code", "anthropic", "api", "relay", "cli"]
+classifiers = [
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://github.com/cocodot2026/ccsetup"
+Repository = "https://github.com/cocodot2026/ccsetup"
+
+[project.scripts]
+ccsetup = "ccsetup:main"
+
+[tool.setuptools]
+py-modules = ["ccsetup"]
