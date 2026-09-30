@@ -62,5 +62,5 @@ Part of a small honest toolkit for running AI from China:
 [ai-api-cost](https://github.com/cocodot2026/ai-api-cost) (cost) ·
 [ai-coding-from-china](https://github.com/cocodot2026/ai-coding-from-china) (the full skill).
 
-The author builds [cocodot](https://cocodot.co), a relay — disclosed; this tool
+The author builds [cocodot](https://cocodot.co?utm_source=github&utm_medium=readme&utm_campaign=ccsetup), a relay — disclosed; this tool
 works against any Anthropic-compatible endpoint. MIT.
